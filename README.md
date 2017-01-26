@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://ibm.box.com/s/pw7155dk9t1txfd60w11xcmja0cr0bx1' title='Irene - ToDo App' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/a/IsxE7' title='Irene - ToDo App' width='' alt='Video Walkthrough' data-canonical-src='http://imgur.com/a/IsxE7'/>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
