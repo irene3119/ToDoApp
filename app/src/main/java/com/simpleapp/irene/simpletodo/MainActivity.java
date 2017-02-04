@@ -5,20 +5,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 
-import org.apache.commons.io.FileUtils;
+import com.raizlabs.android.dbflow.sql.language.SQLite;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    ArrayList<String> items;
-    ArrayAdapter<String> itemsAdapter;
+    ArrayList<TodoItem> items;
+    TodoItemAdapter itemsAdapter;
     ListView lvItems;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         lvItems = (ListView) findViewById(R.id.lvItems);
         readItems();
-        itemsAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,items);
+        itemsAdapter = new TodoItemAdapter(this, items);
         lvItems.setAdapter(itemsAdapter);
         setupListViewListener();
     }
@@ -36,9 +33,11 @@ public class MainActivity extends AppCompatActivity {
     public void onAddItem(View v) {
         EditText etNewItem = (EditText) findViewById(R.id.etNewItem);
         String itemText = etNewItem.getText().toString();
-        itemsAdapter.add(itemText);
+        TodoItem newItem = new TodoItem();
+        newItem.setTitle(itemText);
+        itemsAdapter.add(newItem);
         etNewItem.setText("");
-        writeItems();
+        updateItems(newItem);
     }
 
     private void setupListViewListener() {
@@ -46,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 new AdapterView.OnItemLongClickListener() {
                     @Override
                     public boolean onItemLongClick(AdapterView<?> adapter, View item, int pos,long id) {
+                        deleteItem(pos);
                         items.remove(pos);
                         itemsAdapter.notifyDataSetChanged();
-                        writeItems();
                         return true;
                     }
                 }
@@ -58,35 +57,33 @@ public class MainActivity extends AppCompatActivity {
                 new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> adapter, View item, int pos,long id) {
-                        String itemText = lvItems.getItemAtPosition(pos).toString();
-                        launchComposeView(itemText,pos);
+                        TodoItem editItem = items.get(pos);
+                        launchComposeView(editItem,pos);
                     }
                 }
         );//edit item
     }
 
     private void readItems() {
-        //File fileDir = getFilesDir();
-        File todoFile = new File(getFilesDir(),"todo.txt");
-        try {
-            items = new ArrayList<String>(FileUtils.readLines(todoFile));
-        } catch (IOException e) {
-            items = new ArrayList<String>();
-        }
+
+        items = (ArrayList)SQLite.select().
+                from(TodoItem.class).queryList();
     }
 
-    private void writeItems() {
-        File todoFile = new File(getFilesDir(),"todo.txt");
-        try {
-            FileUtils.writeLines(todoFile, items);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    private void updateItems(TodoItem item) {
+        item.save();
+    }
+
+    private void deleteItem(int index) {
+        TodoItem delItem = new TodoItem();
+        delItem.setId(items.get(index).getId());
+        delItem.setTitle(items.get(index).getTitle());
+        delItem.delete();
     }
 
     //launch sub-activity
     private final int REQUEST_CODE = 20;
-    public void launchComposeView(String item, int pos) {
+    public void launchComposeView(TodoItem item, int pos) {
         // first parameter is the context, second is the class of the activity to launch
         Intent i = new Intent(MainActivity.this, EditItemActivity.class);
         // put "extras" into the bundle for access in the second activity
@@ -102,11 +99,11 @@ public class MainActivity extends AppCompatActivity {
         // REQUEST_CODE is defined above
         if (resultCode == RESULT_OK && requestCode == REQUEST_CODE) {
             // Extract name value from result extras
-            String item = data.getExtras().getString("editItem");
+            TodoItem item = (TodoItem) data.getSerializableExtra("editItem");
             int pos = data.getExtras().getInt("pos");
             items.set(pos,item);
             itemsAdapter.notifyDataSetChanged();
-            writeItems();
+            updateItems(item);
         }
     }
 }

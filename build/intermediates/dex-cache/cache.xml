@@ -3,30 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/3.1.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_29a9ddaf0798b049e424906e4d03ce82e4e4d89f.jar" />
+        sha1="58342b97007b49e4a536bdd30b9c3928be81ae59">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.github.Raizlabs.DBFlow-dbflow-3.1.1_fac344e394c728971ca8501be14b06accb6698a0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d3fe26242391f86cd03efd54ab30862571d84a22">
-        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/instant-run_37e46255bbe3ef0526729a3d8dbd31a0d7eace05.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_e98e2a8c82b89f0df7e416efd30c837d77d9bede.jar" />
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_136bfef0123a2dc3d8b199a2341fbcbf416952ca.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,21 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1262b51b377213a5c8efb6043796d8bc3695d34b">
-        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_f1dcf533bbf26f59635de19a61490ba13c5ac37f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_ce5047a6bf728ff2c510e103b495425adcf18461.jar" />
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_3d465228bc7310551e4b6c2850192d9e6e9bd461.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,6 +48,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_8cdf7f9a00a502b013c875883185292555093e76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_ce5047a6bf728ff2c510e103b495425adcf18461.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -75,12 +75,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_351bef9396cdb870cb5f1b5a8deb3be061c7516c.jar" />
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_9c27bf4af16c3c5c899b044a562532ded3e960ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_6b676331b41f68f9e32afc077943f68fd26fa3f7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,12 +102,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar"
-        jumboMode="true"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
-        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/commons-io-2.4_db9d9c7f5dc9abc44c05f9a56b43532b2a4af315.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_31189da45a1246f9cde33292946a94b504324717.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_ef66408169c31defc962fc67f0db24e91cd36a6e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -108,6 +126,177 @@
         revision="25.0.2"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
         <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_6b676331b41f68f9e32afc077943f68fd26fa3f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_e98e2a8c82b89f0df7e416efd30c837d77d9bede.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_29a9ddaf0798b049e424906e4d03ce82e4e4d89f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_2be1ceff93b86201793b8ae97993e8baa6f0d5d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/commons-io-2.4_db9d9c7f5dc9abc44c05f9a56b43532b2a4af315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_2e37c66febf4653b4290f07b6709107f716eea0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_c1bf76bb5076a0d20b932880f2b74046898ed765.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_29a9ddaf0798b049e424906e4d03ce82e4e4d89f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_351bef9396cdb870cb5f1b5a8deb3be061c7516c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_302ba3fa3c32fd5e3f96bc2451809a1b519503b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_e98e2a8c82b89f0df7e416efd30c837d77d9bede.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_ce5047a6bf728ff2c510e103b495425adcf18461.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_ab708f34c6193d793fee219695be0d922a276371.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_87d4be00630e9b8ac3c610638306e4e3880cf83a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_30da5a8853272e137e95c833ce54d47fe2b45553.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/.gradle/caches/modules-2/files-2.1/com.github.Raizlabs.DBFlow/dbflow-core/3.1.1/f205bcc63da15f536f333e1c82de622fdbb35956/dbflow-core-3.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f205bcc63da15f536f333e1c82de622fdbb35956">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/dbflow-core-3.1.1_1330ab2d013c1399aa1768b03361bae937bd2ec2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_351bef9396cdb870cb5f1b5a8deb3be061c7516c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/git/ToDoApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/Irene/git/ToDoApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_0b7a0b88ca975aff962f17f143829b6724c28620.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/commons-io-2.4_db9d9c7f5dc9abc44c05f9a56b43532b2a4af315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Irene/Android/SimpleTodo/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/3.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58342b97007b49e4a536bdd30b9c3928be81ae59">
+        <dex dex="/Users/Irene/Android/SimpleTodo/app/build/intermediates/pre-dexed/debug/com.github.Raizlabs.DBFlow-dbflow-3.1.1_6b69df376d2d1fd1a6e0cbb81850807f0bb31b7d.jar" />
     </item>
     <item
         is-multidex="false"
